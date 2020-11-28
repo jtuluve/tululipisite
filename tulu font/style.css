@@ -112,7 +112,7 @@ h3{
   text-align: center;
 }
 .image{
-   height: 50px;
+   height: 200px;
    left: 0;
    bottom: 0;
    position: fixed;
@@ -128,7 +128,7 @@ h3{
  }
  
 .image2{
-   height: 50px;
+   height: 200px;
    right: 0;
    bottom: -1;
    position: fixed;
