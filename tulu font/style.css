@@ -1,7 +1,7 @@
 @font-face{
-				font-family: 'baravu';
-				src: url(./fonts/baravu.ttf);
-				weight: 100;
+	font-family: 'baravu';
+        src: url(./fonts/baravu.ttf);
+	weight: 100;
 }
 
 div.container
@@ -57,51 +57,48 @@ div.topBotomBordersOut a:hover:before, div.topBotomBordersOut a:hover:after
 
 
 head, body {
-			font-family: baravu;
+	font-family: baravu;
 }
 
 h1{
-                                height: 5%;
-				font-family: baravu;
-				weight: 100;
-				background-color: red;
-				text-align: center;
-				color: white;
+        height: 5%;
+	font-family: baravu;
+	weight: 100;
+	background-color: red;
+	text-align: center;
+	color: white;
+}
+h1 a{
+         display:inline-block;
 }
 
 p{
-   font-family: baravu;
-				padding: 0.5em 0.5em;
-				color: white;
+        font-family: baravu;
+	padding: 0.5em 0.5em;
+	color: white;
   	text-align: center;
   	background-color: black;
 }
 
 
-div.background {
-   background-image: url("./gifs/flag-background.mp4") 
+#myVideo{
+	width: 100%;
+	left: 10;
+	background-color: black;
+	top: -1px;
+}
+h3{
+       color: black;
+       background-color: white;
+       padding: 1em 1em;
+       border: 2px solid red;
+       text-align: center;
+       height: 3%;
+       width: 100%;
+       padding: 0px;
+       font-size: 100%;
 }
 
-#myVideo{
-				width: 100%;
-				left: 10;
-				background-color: black;
-				top: -1px;
-}
-h3{
-  color: black;
-  background-color: white;
-  padding: 1em 1em;
-  border: 2px solid red;
-  text-align: center;
-  height: 3%;
-  width: 100%;
-  padding: 0px;
-  font-size: 100%;
-}
-h3{
-	display:inline-block;
-}
 .image{
    height: 50px;
    left: 0;
