@@ -59,12 +59,9 @@ div.topBotomBordersOut a:hover:before, div.topBotomBordersOut a:hover:after
 head, body {
 			font-family: baravu;
 }
-html{
-  font-family:baravu;
-}
 
 h1{
-    height: 5%;
+                                height: 5%;
 				font-family: baravu;
 				weight: 100;
 				background-color: red;
@@ -79,13 +76,7 @@ p{
   	text-align: center;
   	background-color: black;
 }
-.aboutSite{
-				background-color: black;
-				color: white;
-				height: 5px;
-				right:10;
-				text-align: centre;
-}
+
 
 div.background {
    background-image: url("./gifs/flag-background.mp4") 
@@ -107,6 +98,9 @@ h3{
   width: 100%;
   padding: 0px;
   font-size: 100%;
+}
+h3{
+	display:inline-block;
 }
 .image{
    height: 50px;
