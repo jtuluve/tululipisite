@@ -63,13 +63,13 @@ body{
 
 .heading .a{
     width: 100%;
-				font-family: baravu;
-				color: white;
-				background: url('./images/text-box-1.png');
-			 background-position: center;
-			 background-size: contain;
-			 background-repeat: no-repeat;
-			 height: 20%;
+    
+    color: white;
+    background: url('./images/text-box-1.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 20%;
 			
 	}
 .heading .a h1{
