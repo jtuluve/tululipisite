@@ -66,10 +66,11 @@ body{
 				font-family: baravu;
 				color: white;
 				background: url('./images/text-box-1.png');
-			 background-position: relative;
+			 background-position: center;
 			 background-size: contain;
 			 background-repeat: no-repeat;
 			 height: 20%;
+			align: center;
 	}
 .heading{
    text-align: center;
