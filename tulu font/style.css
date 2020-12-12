@@ -63,7 +63,6 @@ body{
 
 .heading .a{
     width: 100%;
-    
     color: white;
     background: url('./images/text-box-1.png');
     background-position: center;
@@ -73,7 +72,7 @@ body{
 			
 	}
 .heading .a h1{
-	padding-top: 1.5em;
+	padding-top: 2em;
 }
 .heading{
    text-align: center;
