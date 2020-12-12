@@ -155,8 +155,4 @@ h3{
 	background-position: center;	
 }
 }
-@media only screen and (max-width: 1000px) {
-	.black{
-		background-colour: yellow;
-	}
-}
+
