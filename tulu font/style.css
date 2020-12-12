@@ -111,9 +111,6 @@ h3{
   border: 2px solid red;
   text-align: center;
   width: 70%;
-  background-position: center;	
-  left: 100;
-  right: 100;
 }
 
 .button{
@@ -152,7 +149,8 @@ h3{
 }
 
 .trial{
-			font-size: 300%;
+	font-size: 300%;
+	background-position: center;	
 }
 }
 @media only screen and (max-width: 600px) {
