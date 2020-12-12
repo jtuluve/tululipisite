@@ -151,7 +151,7 @@ h3{
 .trial{
 			font-size: 2em;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1200px) {
 .black{
      background-colour: yellow;
 	}
