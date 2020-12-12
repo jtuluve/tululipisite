@@ -111,7 +111,9 @@ h3{
   border: 2px solid red;
   text-align: center;
   width: 70%;
-  background-position: center;				
+  background-position: center;	
+  left: 100;
+  right: 100;
 }
 
 .button{
