@@ -73,7 +73,7 @@ body{
 			
 	}
 .heading .a h1{
-	padding-top: 2.5em;
+	padding-top: 0em;
 }
 .heading{
    text-align: center;
@@ -157,3 +157,4 @@ h3{
 	.black{
 		background-colour: yellow;
 	}
+}
