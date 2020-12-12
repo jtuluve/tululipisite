@@ -1,3 +1,4 @@
+@media only screen and (min-width: 1000px) {
 @font-face{
 				font-family: 'baravu';
 				src: url(./fonts/baravu.ttf);
@@ -151,8 +152,4 @@ h3{
 .trial{
 			font-size: 2em;
 }
-@media only screen and (max-width: 1200px) {
-.black{
-     background-colour: yellow;
-	}
 }
