@@ -63,7 +63,6 @@ body{
 
 .heading .a{
     width: 100%;
-    
     color: white;
     background: url('./images/text-box-1.png');
     background-position: center;
@@ -77,8 +76,7 @@ body{
 }
 .heading{
    text-align: center;
-   
-   font-size: 100%;
+   font-size: 200%;
 }
 
 p{
