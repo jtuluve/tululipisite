@@ -3,5 +3,11 @@ This project is to make a website in fully tululipi. As we don't have unicode (a
 
 --
 
+
+<style>
+    .instagram{
+            size: 10px;
+           }
+</style>
  <h1>add your knowledge or edit</h1> <br>
-If you want to donate your knowledge in this website or if you want to edit this website please contact me on <a href="https://instagram.com/j.tuluve"><img src="./Images-Readme/instagram-readme.png">Instagram</a> or <a href="https://twitter.com/j_tuluve">Twitter</a>
+If you want to donate your knowledge in this website or if you want to edit this website please contact me on <a href="https://instagram.com/j.tuluve" class="instagram"><img src="./Images-Readme/instagram-readme.png">Instagram</a> or <a href="https://twitter.com/j_tuluve">Twitter</a>
