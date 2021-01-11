@@ -1,6 +1,6 @@
 
 <style>
-    .instagram{
+    #instagram{
             size: 10px;
            }
 </style>
