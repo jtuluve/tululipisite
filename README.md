@@ -6,7 +6,7 @@
 </style>
 </head>
 <body>
-# tululipisite
+<h1>tululipisite</h1>
 This project is to make a website in fully tululipi. As we don't have unicode (as date 7/1/2021) I'm using baravu font (because it's English to Tululipi and easy to use for me) in this website. 
 
 --
