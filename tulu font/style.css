@@ -96,6 +96,7 @@ p{
 
 div.background {
    background-image: url("./gifs/flag-background.mp4") 
+   user-select: none;
 }
 
 #myVideo{
