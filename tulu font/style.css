@@ -3,6 +3,9 @@
 				src: url(./fonts/baravu.ttf);
 }
 
+body{
+        margin: 0;
+}
 div.container
 {
 	padding: 0.5em 0.5em;
