@@ -1,68 +1,13 @@
 @font-face{
 				font-family: 'baravu';
-				src: url(./fonts/baravu.ttf);
+				src: url(./fonts/Brvu.ttf);
 }
-
-body{
-        margin: 0;
-}
-div.container
-{
-	padding: 0.5em 0.5em;
-	text-align: center;
-}
-
-
-div.container a
-{
-    color: red;
-    text-decoration: none;
-    margin: 0px 0px;
-    padding: 5px 1px;
-    position: relative;
-    z-index: 4;
-    cursor: pointer;
-    font-family: baravu;
-    font-width: 1%;
-}
-
-
-/* Top and Bottom borders go out */
-div.topBotomBordersOut a:before, div.topBotomBordersOut a:after
-{
-    z-index: 10;
-    position: absolute;
-    right: 1px;
-    width: 100%;
-    height: 1px;
-    background: white;
-    content: "";
-    opacity: 100%;
-    transition: all 0.3s;
-}
-
-div.topBotomBordersOut a:before
-{
-    top: 0px;
-    transform: translateY(10px);
-}
-
-div.topBotomBordersOut a:after
-{
-    bottom: 0px;
-    transform: translateY(-10px);
-}
-
-div.topBotomBordersOut a:hover:before, div.topBotomBordersOut a:hover:after
-{
-    z-index: 10;
-    opacity: 100%;
-    transform: translateY(0px);
-}
-
 
 body{
 			font-family: baravu;
+			
+  -webkit-user-select: none;
+  user-select: none;
 }
 
 
@@ -76,15 +21,13 @@ body{
 	}
 
 
-p{
-   font-family: baravu;
-				padding: 0.5em 0.5em;
+
+.para{
+   font-size: 250%;
+   	padding: 0.5em 0.5em;
 				color: white;
   	text-align: center;
   	background-color: black;
-}
-.para{
-   font-size: 250%;
 }
 .aboutSite{
 				background-color: black;
@@ -96,7 +39,6 @@ p{
 
 div.background {
    background-image: url("./gifs/flag-background.mp4") 
-   user-select: none;
 }
 
 #myVideo{
@@ -138,6 +80,7 @@ h3{
    position: fixed;
    z-index: 4;
    opacity: 60%;
+   user-select: none;
 }
 
 .trial{
@@ -279,7 +222,6 @@ a{
   padding: 100px;
   padding-top: 150px;
   margin: -150px -100px;
-  background-image: linear-gradient(to right, red , yellow);
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   transform-origin: 0% 0%;
@@ -304,13 +246,13 @@ a{
   transform: none;
 }
 
-/*menu*/
 .menumenu{
      background: red;
      width: 0px;
      left: 100px;
      position: absolute;
-    }
+}
+/*menu*/
 li{
 				left: 0;
 				position: relative;
@@ -318,4 +260,44 @@ li{
 }
 .center{
 				text-align: center;
+}
+.baravu{
+				background-color: cyan;
+				height: 100%;
+}
+.trial-image{
+				height: 200px;
+				position: relative;
+				top: -2px;
+    float: left;
+}
+.baravu h2{
+    position: relative;
+				font-size: 30px;
+				text-align: left;
+				left: 25px;
+}
+.baravu p{
+    position: relative;
+				font-size: 25px;
+				text-align: left;
+				left: 22px;
+				top: -10px;
+				opacity: 100%;
+}
+.border-black{
+				border: 5px solid orange;
+				padding: 5px 5px;
+				margin: 3px;
+				top: 1px;
+}
+.gradient-text {
+  background-color: red;
+  background-image: linear-gradient(to bottom, transparent, cyan);
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
 }
